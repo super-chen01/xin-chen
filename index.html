@@ -66,12 +66,12 @@
     } else {
         setTimeout(function () {
             startHeartAnimation();
-        }, 500);
+        }, 4000);
 
         timeElapse(together);
         setInterval(function () {
             timeElapse(together);
-        }, 100);
+        }, 500);
 
         adjustCodePosition();
         $("#code").typewriter();
